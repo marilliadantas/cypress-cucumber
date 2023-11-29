@@ -2,7 +2,7 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 import login from '../../../support/locators/login.loc.js'
 
 Given(/^I'm on the login page$/, () => {
-	cy.visit('/')
+    cy.visit('/')
 })
 
 
