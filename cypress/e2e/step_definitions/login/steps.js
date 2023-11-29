@@ -14,6 +14,6 @@ When(/^I set a registered my email and password$/, () => {
 
 
 Then(/^I have a successful login$/, () => {
-	cy.get(login.txtDashboard)
+    cy.get(login.txtDashboard)
         .should('contain', "Dashboard")
 })
